@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main page</title>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    /* The image used */
+    background-image: url("blue1.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#first{
+    border: 2px solid #2B65EC;
+    background-color: #79BAEC;
+    align: right;
+}
+.button { 
+    background-color: #56A5EC;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.div1 {
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid #2B65EC;
+    float: left;
+    overflow:scroll;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+fieldset{
+    width: 400px;
+    height: 500px;    
+    padding: 10px;
+    border: 1px solid #2B65EC;
+    float: left;
+    overflow:scroll;
+    }
+.imgcontainer {
+    text-align: center;
+    margin: 44px 0 32px 0;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.div3{
+    width: 300px;
+    height: 500px;    
+    padding: 10px;
+    border: 1px solid #2B65EC;
+    float: right;
+    overflow:scroll;
+}
+.container1 {
+    padding: 20px;
+    margin-left:100px;
+    font-color:#157DEC;
+
+}
+
+.container2 {
+    padding: 10px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.button1 { 
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    cursor: pointer;
+    
+}
+.button2 { 
+    background-color: #E5E4E2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button3 { 
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="bg">
+<p id="first" align="right">
+<img src="redcross.jpg" width="70" height="55" align="left"></img>
+<B><I><font family="arial" font color="white" font size="5">Connect2Life</I></font></B>
+<button class="button" ><a href="Health guide.html">Health Guide</a></button>    
+<button class="button" ><a href="donate organs.html">Organ Bank</a></button>    
+<button class="button" ><a href="blood bank.html">Blood Bank</a></button>
+<button class="button" ><a href="job application.html">Vacancy</a></button>
+<button class="button" ><a href="emergency.html">Emergency services</a></button>
+<button class="button" ><a href="">Admin login</a></button>
+<div class="container">
+<div class="div1">
+	<h2><font color="#157DEC"><center>Recent Activity</center></font></h2>
+</div>    
+<fieldset>
+	<h2><font color="#157DEC"><center>Patient Login</center></font></h2>
+	<form action="demo.php" method = "post">
+  	<div class="imgcontainer">
+    		<img src="img_avatar2.png" alt="Avatar" class="avatar">
+  	</div>
+	<div class="container1">
+		<b><font size="4px" font color="#157DEC">ID number</font></b><br><br>
+		<input type="text" placeholder="Enter ID number" name="no." required><br><br>
+		<b><font size="4px" font color="#157DEC">Password</font></b><br><br>
+		<input type="password" placeholder="Enter Password" name="no." required><br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="patient_login.html"><button class="button2" value="submit" style="float:center">Login</a></button><br>
+		<p><a href="sign-up.html"><style="font-size:20px;">Sign up?</a></style>
+		<input type="checkbox" checked="checked"><font size="4px"> Remember me</font></p>
+	</div>
+	
+		<form>
+    		<button type="reset" value="reset" class="button3">Cancel</button>
+    		<span class="psw">Forgot <a href="forgotid.html">ID number/Password?</a></span>
+		</form>
+	
+</fieldset>
+<div class="div3">
+	<h2><font color="red"><center>DONATE BOX</center></font></h2>
+	<p><font color="red">The amount of the money will be utilized to build new dispensaries,hospitals etc in rural areas.</font></p>
+	<font color="red">
+	<B>Positve Effects of Donating</B>
+	<ul>Helping other gives you happiness</ul>
+	<ul>Bring more meaning to your life</ul>
+	<ul>Motivate Friends and Family</ul>
+	<ul>Realize that every bit helps</ul>
+	<button class="button1"><a href="https://paytm.com/">Donate Rs10</a></button>
+	</font>
+</div>
+</div>
+</body>
+</html>

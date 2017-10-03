@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>vacancy</title>
+<style>
+p {
+  border: #27AE60;
+  background-color: #7D3C98;
+height:7%;
+}
+body{ background-image: url("vacancy1.jpg");}
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+input[type=submit] {
+    background-color: #27AE60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #27AE60;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #00ffffff;
+    padding: 20px;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 44px 0 32px 0;
+}
+fieldset{
+width:500px;
+
+margin-left:4px;
+margin-top:5px;
+margin:auto;
+border-color: #00ffffff;
+}
+
+</style>
+</head>
+<body>
+<h1><p>Apply for a JOB</p></h1>
+<fieldset>
+<div class="container">
+  <form action="/action_page.php">
+<div class="imgcontainer">
+    <label for="fname">First Name</label>
+<br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>
+    <label for="lname">Last Name</label>
+<br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+    <label>Address 1</label>
+<br>
+    <input type="text" id="address" name="address" placeholder="address">
+  <br> 
+ <label>Address 2</label>
+<br>
+    <input type="text" id="address" name="address" placeholder="address">
+<br>
+Attach resume:
+<input type="file" name=attach resume maxlength=50 allow="text/* value="attach resume">
+<br>
+<script>
+  </form>
+</div>
+</div>
+</fieldset>
+</body>
+</html>
